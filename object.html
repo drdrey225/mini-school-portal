@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Object js</title>
+</head>
+<body>
+   <!-- Object -->
+      <!-- Properties - An object must have propeties to describe it. -->
+      <!-- Method - are what the object can do. -->
+
+      <!-- An object effectively describe just one thing -->
+      <!-- Objects are not ordered the same way an array are ordered -->
+      <!-- objects have key:value pairs -->
+
+
+   <script>
+      // Specimen  - mr Babatunde
+      // Propeties - 
+      // methods   - walk(), run()
+
+      var babatunde = {
+         color : "dark",
+         height : 5.5,
+         firstname : "Babatunde",
+         jump: function(){   //anonymous function
+            console.log("Jump jump jump")
+         }     
+      }
+      babatunde.jump();
+
+
+      //Dot Notation , Bracket Notation
+      console.log(babatunde)
+      console.log(babatunde.color) //Dot Notation
+      console.log(babatunde.height) //Dot Notation
+      console.log(babatunde["firstname"])  //Bracket Notation
+
+
+   </script>
+</body>
+</html>
